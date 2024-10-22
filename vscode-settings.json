@@ -1,0 +1,123 @@
+{
+  "workbench.startupEditor": "none", // Remove welcome page
+  "workbench.colorTheme": "Tailwind - Dark",
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": true,
+  "editor.renderWhitespace": "all",
+  "editor.linkedEditing": true,
+  "git.autofetch": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "off",
+  "vim.foldfix": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "u"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "undo"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-r>"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "redo"
+        }
+      ]
+    }
+  ],
+  "vim.replaceWithRegister": true,
+  "vim.easymotion": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "leader",
+      ],
+      "after": [
+        "leader",
+        "leader",
+      ],
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "leader",
+      ],
+      "after": [
+        "leader",
+        "leader",
+      ],
+    },
+  ],
+  "vim.leader": " ",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "tailwindCSS.emmetCompletions": true,
+  "editor.lineNumbers": "on",
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.guides.bracketPairs": "active",
+  "editor.multiCursorPaste": "full",
+  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": false, // prevent auto complete on "("
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "macros": {
+    "commentLine": [
+      "editor.action.commentLine",
+      "cursorDown"
+    ]
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "gitlens.codeLens.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "settingsSync.ignoredSettings": [
+    "editor.fontSize",
+    "editor.fontFamily"
+  ],
+  "settingsSync.ignoredExtensions": [
+    "angular.ng-template"
+  ],
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "editor.accessibilitySupport": "off",
+  "window.zoomLevel": 1.2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.graph.layout": "editor",
+  "nxConsole.showNodeVersionOnStartup": false,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "workbench.activityBar.location": "top",
+  "window.newWindowDimensions": "maximized",
+  "gitlens.graph.minimap.enabled": false,
+  "scm.showHistoryGraph": false,
+}
